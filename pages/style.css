@@ -134,6 +134,22 @@ nav a:hover {
   text-align: center;
 }
 
+.formsection input{
+  width: 250px;
+  padding: 10px;
+}
+
+#loginBtn{
+  background-color: #273c75;
+  color: white;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: "cairo", sans-serif;
+}
 
 
 @media screen and (max-width: 991px) {

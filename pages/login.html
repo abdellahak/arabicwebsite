@@ -21,11 +21,12 @@
           <a href="../index.html">الرئيسية</a>
           <a href="../index.html#colaborations">شركاؤنا</a>
           <a href="../index.html#services">خدماتنا</a>
-          <a href="">من نحن</a>
+          <a href="./AboutUs.html">من نحن</a>
           <a href="../index.html#home">تواصل معنا</a>
           <!-- <a href="#home">المدونة</a> -->
         </div>
-        <a href="./login.html" id="signin">تسجيل الدخول</a>
+        <!-- <a href="#" id="signin">تسجيل الدخول</a> -->
+        <div style="width: 100px;"></div>
       </nav>
       <div class="listphone" id="listphone">
         <a class="mobileOpt" href="../index.html#home">الرئيسية</a>
@@ -37,22 +38,18 @@
       </div>
     </div>
     <main>
-      <h1>من نحن</h1>
-      <p>
-        نحن شركة رائدة في مجال التكنولوجيا، نسعى لتقديم أفضل الحلول التقنية
-        لعملائنا. تأسست شركتنا في عام 2000 ومنذ ذلك الحين ونحن نعمل بجد لتلبية
-        احتياجات السوق المتغيرة.
-      </p>
-      <p>
-        فريقنا يتكون من مجموعة من الخبراء المتخصصين في مجالات متعددة، مما يمكننا
-        من تقديم خدمات متكاملة وشاملة. نحن نؤمن بأهمية الابتكار والتطوير المستمر
-        لضمان رضا عملائنا وتحقيق أهدافهم.
-      </p>
-      <p>
-        نحن ملتزمون بتقديم أعلى مستويات الجودة في كل ما نقوم به، ونسعى دائماً
-        لتحسين خدماتنا ومنتجاتنا لتلبية توقعات عملائنا. شكراً لثقتكم بنا ونتطلع
-        إلى العمل معكم.
-      </p>
+      <h1>سجل الدخول</h1>
+      <form action="">
+        <div class="formsection">
+          <label for="email">البريد الإلكتروني</label><br>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="formsection">
+          <label for="password">كلمة المرور</label><br>
+          <input type="password" id="password" name="password" />
+        </div>
+        <button type="submit" id="loginBtn">تسجيل الدخول</button>
+      </form>
     </main>
     <script src="../script.js"></script>
   </body>
