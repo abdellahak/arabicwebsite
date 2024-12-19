@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>سجل الدخول</title>
+    <title>تواصل معنا</title>
   </head>
   <body>
     <div id="navcontainer">
@@ -22,11 +22,10 @@
           <a href="../index.html#colaborations">شركاؤنا</a>
           <a href="../index.html#services">خدماتنا</a>
           <a href="./AboutUs.html">من نحن</a>
-          <a href="./contactUs.html">تواصل معنا</a>
+          <a href="">تواصل معنا</a>
           <!-- <a href="#home">المدونة</a> -->
         </div>
-        <!-- <a href="#" id="signin">تسجيل الدخول</a> -->
-        <div style="width: 100px"></div>
+        <a href="./login.html" id="signin">تسجيل الدخول</a>
       </nav>
       <div class="listphone" id="listphone">
         <a class="mobileOpt" href="../index.html#home">الرئيسية</a>
@@ -34,21 +33,25 @@
         <a class="mobileOpt" href="../index.html#services">خدماتنا</a>
         <a class="mobileOpt" href="./AboutUs.html">من نحن</a>
         <!-- <a href="#home">المدونة</a> -->
-        <a class="mobileOpt" href="./contactUs.html">تواصل معنا</a>
+        <a class="mobileOpt" href="">تواصل معنا</a>
       </div>
     </div>
     <main>
-      <h1>سجل الدخول</h1>
+      <h1>تواصل معنا</h1>
       <form action="">
+        <div class="formsection">
+          <label for="name">الاسم</label><br />
+          <input type="text" id="name" name="name" />
+        </div>
         <div class="formsection">
           <label for="email">البريد الإلكتروني</label><br />
           <input type="email" id="email" name="email" />
         </div>
         <div class="formsection">
-          <label for="password">كلمة المرور</label><br />
-          <input type="password" id="password" name="password" />
+          <label for="message">الرسالة</label><br />
+          <textarea id="message" name="message"></textarea>
         </div>
-        <button type="submit" id="loginBtn">تسجيل الدخول</button>
+        <button type="submit" id="loginBtn">إرسال</button>
       </form>
     </main>
     <script src="../script.js"></script>
