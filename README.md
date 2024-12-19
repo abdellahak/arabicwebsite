@@ -1,17 +1,22 @@
-### Arabicwebsite
+# Arabic Website
 
 ## Description
 
-an example of arabic website
+This project showcases an Arabic website, demonstrating various front-end development skills and techniques.
 
+## Live Demo
 
+Experience the website live: [Visit the Site](https://abdellahak.github.io/arabicwebsite/)
 
-## Visit site:
+## Repository
 
-<a href="https://abdellahak.github.io/arabicwebsite/" target="_blank">Click here!</a>
+Access the project repository on GitHub: [GitHub Repository](https://github.com/abdellahak/arabicwebsite)
 
+## Getting Started
 
+To clone and run this project locally, execute the following command:
 
-## Project link:
+```bash
+git clone https://github.com/abdellahak/arabicwebsite.git
+```
 
-<a href="https://github.com/abdellahak/arabicwebsite" target="_blank">https://github.com/abdellahak/arabicwebsite</a>
